@@ -1,0 +1,40 @@
+@import url('_variables.css');
+@import url('_dark-mode.css');
+@import url('_layout.css');
+@import url('_components.css');
+
+/* === БАЗОВЫЙ СБРОС === */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    line-height: 1.5;
+    /* Плавный переход при смене темы */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button, input {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}

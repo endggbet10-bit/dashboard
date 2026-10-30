@@ -1,0 +1,14 @@
+/* === СВЕТЛАЯ ТЕМА (ПЕРЕОПРЕДЕЛЕНИЕ ПЕРЕМЕННЫХ) === */
+body.theme-light {
+    --bg-body: #f4f5f7;
+    --bg-panel: #ffffff;
+    --bg-hover: #f0f0f0;
+    --border-color: #e5e7eb;
+
+    --text-main: #111827;
+    --text-muted: #6b7280;
+
+    /* Делаем зеленый чуть темнее, чтобы он читался на белом фоне */
+    --accent: #10b981; 
+    --accent-hover: #059669;
+}
